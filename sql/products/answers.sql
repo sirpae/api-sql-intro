@@ -21,11 +21,11 @@ WHERE Score <= 7
 
 -- 6) films released in 1990
 SELECT * FROM Films 
-WHERE Release_year = '1990'
+WHERE Release_year = 1990
 
 -- 7) films released before 2000
 SELECT * FROM Films 
-WHERE Release_year <= '2000'
+WHERE Release_year <= 2000
 
 -- 8) films released after 1990
 
@@ -34,7 +34,7 @@ WHERE Release_year >= 1990
 
 -- 9) films released between 1990 and 1999
 SELECT * FROM Films 
-WHERE Release_year >= '1990' AND Release_year <= '1999'
+WHERE Release_year >= 1990 AND Release_year <= 1999
 
 -- 10) films with the genre of "SciFi"
 SELECT * FROM Films 
